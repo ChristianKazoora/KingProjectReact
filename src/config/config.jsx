@@ -1,4 +1,4 @@
-import { Planet } from "../componets/globe/Planet2";
+// import { Planet } from "../componets/globe/Planet2";
 import { Sphere } from "../componets/globe/Sphere";
 import img from "../assets/artPicture/2023/art2.png";
 import img1 from "../assets/artPicture/2023/art2.png";
@@ -14,7 +14,7 @@ const globeItems = [
   },
   {
     id: 1,
-    component: Planet,
+    component: Sphere,
     props: { scale: 1.35 },
     link: "/poetry",
   },
