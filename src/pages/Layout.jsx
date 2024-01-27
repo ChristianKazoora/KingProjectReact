@@ -19,7 +19,7 @@ const Layout = () => {
   return (
     <div className="h-full w-full  ">
       <Stars />
-      <Globe items={globeItems} active={active} hide={hide} />
+      {/* <Globe items={globeItems} active={active} hide={hide} /> */}
       <Router>
         <Routes>
           <Route
