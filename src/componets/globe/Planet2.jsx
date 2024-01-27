@@ -7,7 +7,7 @@ import React, { useRef } from "react";
 import { useGLTF, PerspectiveCamera } from "@react-three/drei";
 import { useFrame } from "@react-three/fiber";
 
-export function Planet(props) {
+function Planet(props) {
   const { nodes, materials } = useGLTF(
     "/3Dmodels/stylized_planet/planet2/planet2.gltf"
   );

@@ -23,7 +23,7 @@ const Layout = () => {
       <Router>
         <Routes>
           <Route
-            path="/"
+            path="KingProjectReact"
             element={
               <Homepage
                 active={active}
